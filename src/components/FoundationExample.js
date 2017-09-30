@@ -127,16 +127,16 @@ const FoundationExample = () => {
 	            <div className="grid-x grid-padding-x">
 	              <div className="large-6 medium-6 cell">
 	                <label>Choose Your Favorite</label>
-	                <label for="pokemonRed">Radio 1</label>
+	                <label htmlFor="pokemonRed">Radio 1</label>
 	                <input type="radio" name="pokemon" value="Red" id="pokemonRed"></input>
-	                <label for="pokemonBlue">Radio 2</label>
+	                <label htmlFor="pokemonBlue">Radio 2</label>
 	                <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"></input>
 	              </div>
 	              <div className="large-6 medium-6 cell">
 	                <label>Check these out</label>
-	                <label for="checkbox1">Checkbox 1</label>
+	                <label htmlFor="checkbox1">Checkbox 1</label>
 	                <input id="checkbox1" type="checkbox"></input>
-	                <label for="checkbox2">Checkbox 2</label>
+	                <label htmlFor="checkbox2">Checkbox 2</label>
 	                <input id="checkbox2" type="checkbox"></input>
 	              </div>
 	            </div>
